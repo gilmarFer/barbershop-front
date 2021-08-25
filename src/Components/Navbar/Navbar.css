@@ -1,0 +1,31 @@
+#c-nabvar-main {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+background: rgba(0,0,0,0.8);}
+
+.nav-collapse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  height: 2.5rem;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px){
+  .nav-collapse{
+    display: unset;
+  }
+}

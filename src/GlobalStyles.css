@@ -1,0 +1,29 @@
+.b {
+  border: solid red 1px;
+}
+
+body {
+  background: #11131B;
+}
+
+.hor-space-1 {
+  margin: 0 1rem;
+}
+
+.ver-space-1 {
+  margin: 1rem 0;
+}
+ .space-1 {
+   margin: 1rem;
+ }
+
+ .space-05 {
+  margin: 0.5rem;
+}
+
+.ver-line {
+  width: 2px;
+  height: 40px;
+  background: #F5D098 ;
+}
+

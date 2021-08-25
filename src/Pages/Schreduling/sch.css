@@ -1,0 +1,22 @@
+#sch-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#sch-center{
+  background: white;
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+@media (max-width: 650px){
+  #sch-center{
+    background: white;
+    width: 90%;
+    text-align: center;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,21 @@
+#login-main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-main  #login-card{
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 50%;
+}
+
+@media (max-width: 768px){
+  #login-main  #login-card{
+    width: 95%;
+  }
+
+}

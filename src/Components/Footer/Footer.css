@@ -1,0 +1,13 @@
+#footer-main {
+  display: flex;
+  justify-content: center;
+  background: #11131B;
+  align-items: center;
+  height: 8vh;
+  color: #666666;
+  margin-top: 0.3rem;
+}
+
+#footer-main h6{
+}
+
